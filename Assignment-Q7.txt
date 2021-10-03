@@ -1,0 +1,17 @@
+void main (){
+  var obj=  Study();
+  
+  //Q7
+  
+  
+}
+class Study{
+  Study(){
+    String name="Hassan Yousuf";
+    int age=12;
+    String education="06 Class";
+    print("My name is $name");
+    print("i am $age years old");
+    print("Completed $education");
+  }
+}

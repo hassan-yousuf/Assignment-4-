@@ -1,0 +1,38 @@
+void main (){
+//Q8
+  var dog1 =dog();
+  dog1.breed ="labro";
+  dog1.color="Brown";
+  dog1.barking();
+  dog1.eat();
+  
+  var cat1=cat();
+  cat1.age=10;
+  cat1.color="Black";
+  cat1.eat();
+  cat1.meau();
+}
+class Animal{
+  String color ;
+  
+  void eat(){
+    print ("eat");
+  }
+  
+  }
+
+class dog extends Animal {
+  String breed;
+  
+  void barking(){
+    print ("barking");
+  }
+}
+
+class cat extends Animal{
+ int age;
+ 
+  void meau(){
+    print ("meau");
+  }
+}
